@@ -3,6 +3,8 @@
 An **IoT-based Precision Agriculture Project** that automates plant watering by monitoring **real-time soil moisture, temperature, and humidity**, while offering both **manual and automatic motor control** through a user-friendly **Streamlit dashboard**.
 
 ---
+![Dashboard Screenshot](https://private-user-images.githubusercontent.com/177468201/455006630-2fc61cbf-de82-488d-bf5f-c95775344f00.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDk4NDA1MzcsIm5iZiI6MTc0OTg0MDIzNywicGF0aCI6Ii8xNzc0NjgyMDEvNDU1MDA2NjMwLTJmYzYxY2JmLWRlODItNDg4ZC1iZjVmLWM5NTc3NTM0NGYwMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDYxM1QxODQzNTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03ZTY2N2Q0M2QxMzNlM2ZhOTUxNDE4MGI5MzgyYzY3NTZjZjZhZmY4ZGZiY2QxMTliZjczNmJkYjQ4ZDk0MzVmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4NaNwQefJSKHe8_mlMdDA98Zr-kT8lVD6KpsRjAPo4w)
+---
 
 ## 📌 Project Overview
 
