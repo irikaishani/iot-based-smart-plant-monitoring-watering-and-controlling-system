@@ -76,3 +76,38 @@ Traditional irrigation methods waste a lot of water and require constant monitor
 #### Install the required Python packages:
 ```bash
 pip install streamlit pandas plotly pyserial
+
+```
+
+### 3.Make sure to update your COM port in the Python script:
+```bash
+PORT = "COM5"  # Change this to your actual COM port
+
+```
+
+### 4. Launch the streamlit dashboard:
+```bash
+streamlit run app.py
+
+```
+
+---
+
+## 📍 Conclusion
+
+This project demonstrates a complete **IoT-based smart plant watering system** that integrates sensor monitoring, automated irrigation control, and real-time data visualization. It helps:
+
+- Save water by only irrigating when needed.
+- Reduce manual monitoring by automating decisions.
+- Visualize temperature, humidity, and soil moisture trends interactively.
+- Provide a scalable framework for smart farming.
+
+A step forward in building **smart, sustainable, and efficient agriculture** solutions with minimal resources and open-source tools. 🌾💧🌍
+
+
+
+
+
+
+
+
