@@ -71,9 +71,26 @@ Traditional irrigation methods waste a lot of water and require constant monitor
 
 ### 1. Hardware Setup
 - Connect all components (DHT11, soil moisture sensor, relay module, LCD, LEDs, pump, buzzer) to the Arduino Nano as per the circuit diagram.
-- Upload the Arduino code to the Arduino Nano using the Arduino IDE.
+- Plug the Arduino Nano into your computer using a USB cable.
 
-### 2. Software Setup
+---
+
+### 2. Find the COM Port using Arduino IDE
+
+#### 🧩 Step 1: Install Arduino IDE
+Download and install the latest Arduino IDE from:  
+👉 https://www.arduino.cc/en/software
+
+#### 🔌 Step 2: Check Connected Port
+- Open Arduino IDE.
+- Go to `Tools > Board > Arduino Nano` (optional, for clarity).
+- Go to `Tools > Port` — note the **COM port** listed (e.g., `COM3`, `COM5`, etc.).
+
+You do **not** need to paste or upload any code in the Arduino IDE — it’s just used here to find the correct port.
+
+---
+
+### 3. Software Setup
 
 #### Install the required Python packages:
 ```bash
@@ -81,13 +98,13 @@ pip install streamlit pandas plotly pyserial
 
 ```
 
-### 3.Make sure to update your COM port in the Python script:
+### 4.Make sure to update your COM port in the Python script:
 ```bash
 PORT = "COM5"  # Change this to your actual COM port
 
 ```
 
-### 4. Launch the streamlit dashboard:
+### 5. Launch the streamlit dashboard:
 ```bash
 streamlit run app.py
 
